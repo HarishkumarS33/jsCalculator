@@ -1,0 +1,68 @@
+/* @import https://fonts.googleapis.com/css?family=Alegreya Sans SC; */
+html
+{
+  box-sizing: border-box;
+  height:100%;
+}
+*,*::before,*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+body
+{
+  align-items: center;
+  background-color: #bd4f6c;
+  background-image: linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+  font-family: 'Dosis',sans-serif;
+  font-display: swap;
+  justify-content: center;
+  height: inherit;
+  display:flex;
+}
+.wrapper
+{
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background:rgba(255,255,255,0.30);
+  border: 1px solid rgba(255,255,255,0.34);
+  border-radius: 16px;
+  box-shadow:0 4px 30px rgba(35,35,35,0.1);
+  color: #232323;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); 
+  border: 1px solid rgba(255,255,255,0.34);
+  flex-basis:400px;
+  height: 540px;
+  padding:20px 35px;
+}
+.output
+{
+   backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background:rgba(255,255,255,0.30); 
+  border: 1px  solid rgba(255,255,255,0.01);
+  border-radius: 16px;
+  box-shadow:0 4px 30px rgba(35,35,35,0.1);
+  color: #232323;
+  font-size: 35px;
+  overflow: auto;
+  padding: 20px;
+  text-align: right;
+  width: 326px;
+}
+.calc-btn-row
+{
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
+.calc-btn
+{
+  backdrop-filter: blur(5.5px); 
+  -webkit-backdrop-filter: blur(5.5px);
+  background-color: rgba(255,255,255,0.30);
+  border: 1px rgba(255,255,255,0.01);
+  flex-basis: 20%;
+  border-radius: 10px;
+}
