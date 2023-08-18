@@ -70,3 +70,30 @@ body
   font-size:24px;
   height: 65px;
 }
+.calc-btn:last-child
+{
+  backdrop-filter: blur(5.5px); 
+  -webkit-backdrop-filter: blur(5.5px);
+  background-color: #bd4f6c;
+  color: #fff;
+}
+.calc-btn:last-child:hover
+{
+
+  background: inherit;
+  color: inherit;
+}
+.calc-btn:hover
+{
+  backdrop-filter: blur(5.5px); 
+  -webkit-backdrop-filter: blur(5.5px);
+  background:#d7816a; 
+}
+.double-size
+{
+  flex-basis:47%;
+}
+.triple-size
+{
+  flex-basis: 73%;
+}
